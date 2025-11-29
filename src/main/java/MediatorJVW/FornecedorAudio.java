@@ -7,6 +7,9 @@ public class FornecedorAudio extends FornecedorComponente {
 
     public void iniciarInstalacao() {
         this.status = "INSTALACAO CABEAMENTO";
+    }
+
+    public void notificarInstalacaoConcluida() {
         enviarEvento("INSTALACAO_AUDIO_CONCLUIDA");
     }
 
